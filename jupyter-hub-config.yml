@@ -1,3 +1,103 @@
+## DO NOT USE REUSE SECRETS 
+## They're publicly available on Github, so should be cycled 
+
+auth:
+  type: azuread
+  azuread:
+    clientId: ""
+    clientSecret: ""
+    tenantId: ""
+    callbackUrl: "https://jupyterhub12345.eastus.cloudapp.azure.com/hub/oauth_callback"
+
 proxy:
   secretToken: "e88471deea98db94769056892684db9612bdc2d66697bca548f2418aa9a14b23"
-
+  https:
+    hosts:
+     - jupyterhub12345.eastus.cloudapp.azure.com
+    type: manual 
+    manual:
+      key: |
+        -----BEGIN PRIVATE KEY-----
+        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
+        sCEX3LmX+1fgLz5XjBgBrP2KUMZDrgU=
+        -----END PRIVATE KEY-----
+      cert: |
+        -----BEGIN CERTIFICATE-----
+        MIIFXTCCA0WgAwIBAgIJALphmgVRaGhRMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV
+        BAYTAlVTMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX
+        aWRnaXRzIFB0eSBMdGQwHhcNMjAwOTA3MjA0NjIyWhcNMzAwOTA1MjA0NjIyWjBF
+        MQswCQYDVQQGEwJVUzETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50
+        ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIIC
+        CgKCAgEA5wAeAaBGMZbaXULhBE/84BD/sZjWGNU7EZuH1i8rwMuN9K7HclaGQoow
+        6FqoMIzQujk5eZEfm39mMZU0NgH5MO42QnZAA3E7/Hot9xUE80oSxIrtN7ZWa+Xw
+        nK+cZ0vXB2aptZ9u3FlnruK8NgQX5YWo7b5QYN3SyjiGkmoPuToJwp7pt7ZL3vEE
+        cNVVMnRCZP0tYslaJhTCMVL34U1wM6JWOPoBLIqD05ZV9oDhzpf49qAuOYOBoBjJ
+        FBFvvhzhAxjB6o1uX7WE7fZAG4jnn/PmAJ2t164ry71UIXD4uGaEQ55hibU9ZuaL
+        R5kJ7YsIZbDmRWFy6I3cBOypiSX32ke0neP04o2ZNxNTOadszWU2zM7VFZPsXhow
+        HuGszQZT1up755uZ5OmgnISJO/2M1SKvewPzu0ZbpumhzjDSyQ2V7tcEi2tD8Xi/
+        23WleaYbZEk2sljeCwVV+76NxYyq6I6Ho4OpQXCgNCzkgsaySszSdS+5FuCy/Qh2
+        4Glz819B0zaN7GIs99qB0Pix4vlly+Ulkkmfd9Rh4lViBROhivoBTrQrA1UliUV0
+        ycZ7Ah447OYI6z/jzQRp+EM3M0HV16571WxIj7wIFapYyFC/ocplwSZtHM3JRFYS
+        j4hnl5iNyM70jN+/2+FNtwcIj16I59dbr7UBM4Pv5Mv7l7OLfwsCAwEAAaNQME4w
+        HQYDVR0OBBYEFPK+5gWqQMPt3t2D3VmWxYtNDAabMB8GA1UdIwQYMBaAFPK+5gWq
+        QMPt3t2D3VmWxYtNDAabMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIB
+        ANJ1lMf1RBCeS/uyHyP/i8cC5hqZHzBY0yr7cDLhOL0SklJPwy/2c4/U6+1/5Hqy
+        qxFaNUqdnNt3t0/dArsPAavZY0HZ92dH1vtvGByH/syWmiE1zESSiQ95KKbSJzm8
+        YgWmIDL729nWgelF5Bw/Q32ElmPVuufJGwF2cOt2sU1yvHyLIvGLLPmmWlOvVjbm
+        e+ytOt4bv/B/nAG1aQd+nu6WPHKF55Tw09/N8toZyzu4wVodool6ecX0Cza+nnzE
+        6xyXcnADukBAcQnYu8RMeOuu1aT39MPXmlqh0+/NCyIXyGlRXuvzQeB/9lyqwDem
+        kKNlntq6W63TJGFoXHfC0AmcZG65tc2edCKVO2DeOgwPcGnuZBTp8m+q/zGTiVzJ
+        gb1nEKHsbMZTfhGZVluqdZrh8YzJ3FKcifIzeqEEzdu49f/Ja93+Dwd0XyuhdFED
+        RhdQluRhMlNCAdVJ34wRq7tBRxHL4o8zfNibwuC/QqqlXaFqUppkl2Pwstg61fQO
+        jDL9CF8vpEBV6dQ5GFtC/PLl39gJ6PcnZWUTbkUi04ZWPgavLIvBy1TxqSv1UqQd
+        R20UWrMX7hsmD4dIq0SMoF8g5yVExzgs0ECfREAygeXKIndL0UP1/kUBARlvcSYN
+        xjiu2t4HFpvpQi701RO21VHKqtGkBXnTQFsKWd5LPm2H
+        -----END CERTIFICATE-----
