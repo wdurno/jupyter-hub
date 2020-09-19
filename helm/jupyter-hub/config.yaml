@@ -1,0 +1,16 @@
+auth:
+  type: azuread
+  azuread:
+    clientId: "CLI ARG"
+    clientSecret: "CLI ARG"
+    tenantId: "CLI ARG"
+    callbackUrl: "https://{{ CLI ARG }}/hub/oauth_callback"
+
+proxy:
+  secretToken: "CLI ARG"
+  https:
+    hosts:
+     - "CLI ARG"
+    type: secret
+    secret:
+      name: jh-tls
