@@ -4,6 +4,7 @@
 export jupyter_hub_subscription_id=""
 export jupyter_hub_tenant_id=""
 export jupyter_hub_client_id=""
+export jupyter_hub_client_secret=""
 export jupyter_hub_resource_group_name="" 
 export jupyter_hub_host=""
 
