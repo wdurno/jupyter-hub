@@ -7,4 +7,5 @@
 5. Build with `build.sh` 
 6. AKS public load balancers will automatically procure a public IP. You can modify the URI from there. 
 7. Add users with Azure Active Directory. 
+8. Server image can be modified through editting the hub's configmap 
 
