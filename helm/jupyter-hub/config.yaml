@@ -10,7 +10,7 @@ proxy:
   secretToken: "CLI ARG"
   https:
     hosts:
-     - "jupyterhub12345.eastus.cloudapp.azure.com"
+     - "CLI ARG"
     type: secret
     secret:
       name: jh-tls

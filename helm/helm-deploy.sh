@@ -9,5 +9,5 @@ helm upgrade --cleanup-on-fail \
   --set auth.azuread.clientSecret="${jupyter_hub_client_secret}" \
   --set auth.azuread.tenantId="${jupyter_hub_tenant_id}" \
   --set auth.azuread.callbackUrl="https://${jupyter_hub_host}/hub/oauth_callback" \
-  --set proxy.secretToken="${proxy_token}" #\
-#  --set proxy.https.hosts[0]="${jupyter_hub_host}"
+  --set proxy.secretToken="${proxy_token}" \
+  --set proxy.https.hosts[0]="${jupyter_hub_host}"
